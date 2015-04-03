@@ -8,13 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.jiangziandroid.interactivestory.R;
-import com.parse.ParseObject;
 
 public class MainActivity extends ActionBarActivity {
 
     private EditText mNameField;
     private Button mStartButton;
-    ParseObject object;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
